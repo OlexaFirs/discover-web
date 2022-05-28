@@ -550,13 +550,14 @@ html{
     margin: 0 auto;
 }
 
+/* header styles start*/
+
 .header{
     background-color: #000;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-
 }
 
 .header-wrapper{
@@ -564,6 +565,7 @@ html{
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
+    padding-top: 56px;
 }
 
 .header-list{
@@ -574,6 +576,7 @@ html{
 .header-item{
     margin-right: 82px;
 }
+
 .header-item:last-child{
     margin-right: 0;
 }
@@ -587,5 +590,16 @@ html{
     text-decoration: none;
 }
 
-.header-link:hover,
+.header-link:hover, .header-link:focus, .header-link:active{
+    opacity: .75;
+}
+/* header styles and*/
+
+/* intro styles start*/
+.intro{
+    height: 100vh;
+}
+
+
+/* intro styles and*/
  
