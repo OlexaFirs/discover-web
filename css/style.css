@@ -552,6 +552,11 @@ html{
 
 .header{
     background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
 }
 
 .header-wrapper{
@@ -572,4 +577,15 @@ html{
 .header-item:last-child{
     margin-right: 0;
 }
+
+.header-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header-link:hover,
  
